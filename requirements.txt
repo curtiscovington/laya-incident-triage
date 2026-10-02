@@ -1,0 +1,4 @@
+laya==0.3.20
+transformers==5.18.0
+huggingface-hub==1.33.0
+safetensors==0.8.0

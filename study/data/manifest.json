@@ -1,0 +1,33 @@
+{
+  "seed": 20261002,
+  "families": 72,
+  "variants": [
+    "clean",
+    "paraphrase",
+    "distractor",
+    "injection",
+    "missing_owner",
+    "missing_impact",
+    "conflicting_impact",
+    "resolved"
+  ],
+  "cases": 576,
+  "splits": {
+    "train": {
+      "cases": 192,
+      "families": 24,
+      "sha256": "7cecf52759487c370d1d2879df68532ef10714678d154119658bf3def92aa016"
+    },
+    "dev": {
+      "cases": 96,
+      "families": 12,
+      "sha256": "aedf846408e22dd4ad9671c18ed2cb51c3880abe85854a96b916314d2bcc8764"
+    },
+    "test": {
+      "cases": 288,
+      "families": 36,
+      "sha256": "64fc537c7022094d8d9abf66fc8defb94e2b272b42d62c64726600a640dbfabd"
+    }
+  },
+  "generator_sha256": "c45e565773a60d28e7b633aaff1c11fc8ad015aa943a7e497181b73e431dab00"
+}

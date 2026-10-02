@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-02T18:44:17.228242+00:00",
+  "freeze_sha256": "18c022fe32b97854c19f6473a2b5e545e0250d8868797786df61a46c75efd34a",
+  "development_predictions_sha256": "870ea0e1e2f3d7e0221aa173beac1923033f582a7572b307f783690403295203",
+  "classifier_sha256": "e2a6e8065c73e161b1ff29ac3cf9d45f1afc64166791c71e5eca8cdf6c34f733",
+  "C_grid": [
+    {
+      "C": 0.1,
+      "dev_exact": 0.9270833333333334
+    },
+    {
+      "C": 1.0,
+      "dev_exact": 0.9270833333333334
+    },
+    {
+      "C": 10.0,
+      "dev_exact": 0.9375
+    }
+  ],
+  "chosen_C": 10.0,
+  "temperatures": {
+    "owner": 0.26794336563407334,
+    "impact": 0.5547847360339225,
+    "evidence": 0.2871745887492587
+  },
+  "policies": {
+    "laya_raw": {
+      "threshold": null,
+      "reason": "no development threshold met prespecified constraints"
+    },
+    "laya_calibrated": {
+      "threshold": null,
+      "reason": "no development threshold met prespecified constraints"
+    },
+    "tfidf": {
+      "threshold": 0.39,
+      "development_routes": 58,
+      "development_families": 12,
+      "development_error": 0.034482758620689655
+    },
+    "majority": {
+      "threshold": null,
+      "reason": "no development threshold met prespecified constraints"
+    }
+  }
+}

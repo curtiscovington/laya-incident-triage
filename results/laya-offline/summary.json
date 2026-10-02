@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "backend": "laya",
+    "model": "convaiinnovations/laya",
+    "weights_revision": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+    "device": "cpu",
+    "threshold": 0.9,
+    "timestamp_utc": "2026-10-02T18:14:34.326048+00:00",
+    "request_sha256": "91a5da3fa64eef38ffdaa4f5af6beb598c701f4a88dc01ec00542654f005ab6a",
+    "cases_sha256": "6e8f5f4adc357dd81ad6506aae28a9cb66212c37fe9dcf8f53e404f0222e088b",
+    "code_sha256": "a765981a1adeb74daddb6a02e2a322810573976ed599c5e2da17968d08459577",
+    "load_seconds": 2.046038650907576,
+    "weights_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+    "actual_device": "cpu",
+    "runtime_config": {
+      "encoder": "answerdotai/ModernBERT-large",
+      "head_layers": 2,
+      "max_len": 512,
+      "head_max_len": 192,
+      "max_prefixes": 6,
+      "act_costs": {
+        "escalate": 0.5
+      },
+      "cost_wrong_act": 3.0,
+      "amp_dtype": "bf16",
+      "model_name": "rl-agent",
+      "temperature": [
+        1.6369030475616455,
+        1.2514300346374512,
+        1.983399510383606
+      ],
+      "temperature_by_options": {
+        "choice:3-5": 1.7601518630981445,
+        "choice:6-10": 1.0000158548355103,
+        "score:3-5": 1.2514300346374512,
+        "noul:2": 1.983399510383606,
+        "choice:11+": 0.10058280825614929,
+        "choice:2": 1.9063563346862793
+      },
+      "training": {
+        "updates": 7313,
+        "epochs_completed": 1,
+        "hours": 1.96,
+        "world_size": 1,
+        "fine_tuned_from_checkpoint": true
+      }
+    },
+    "requested_cases": 20,
+    "completed_cases": 20
+  },
+  "metrics": {
+    "backend": "laya",
+    "cases": 20,
+    "valid": 20,
+    "errors": 0,
+    "accuracy": {
+      "owner": 0.65,
+      "impact": 0.5,
+      "evidence": 0.85
+    },
+    "exact_match": 0.3,
+    "routing_coverage": 0.0,
+    "routed_cases": 0,
+    "routing_errors": 0,
+    "routing_error_rate": null,
+    "brier": {
+      "owner": 0.43910832499999997,
+      "impact": 0.618768321,
+      "evidence": 0.424919481
+    },
+    "latency_ms_median": 1522.08954654634,
+    "latency_ms_p95_nearest_rank": 1627.8404700569808,
+    "input_tokens": 17339
+  }
+}

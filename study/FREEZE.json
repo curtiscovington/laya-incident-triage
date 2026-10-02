@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-02T18:41:14.191844+00:00",
+  "sources": {
+    "study/PROTOCOL.md": "e0bde4e1c10bdf56f837f0d6c553a502c7fbefcfa52b964a0c316f18497efb81",
+    "study/make_dataset.py": "c45e565773a60d28e7b633aaff1c11fc8ad015aa943a7e497181b73e431dab00",
+    "study/common.py": "911a4d8a1559f4bcae2645427336baf9c0eed4a5d4ee38223c149686a5c2430d",
+    "study/run.py": "f861dcabe6fb001bc9926b0284fdbb0e61325ebd33759206ad162699cc32a91e",
+    "study/analyze.py": "4795abe366dea1ccf91d4790dd547ba02ec19764c14d79324ae8c2340355883b",
+    "triage.py": "a765981a1adeb74daddb6a02e2a322810573976ed599c5e2da17968d08459577",
+    "runbook.md": "2b418a5ae9a35bfafe7016d9635a37e7539039855f3ddc76368bf7e658d9d0af",
+    "study/environment.lock.txt": "9e04965095353ff83ecef5dcf7d752b87176f5f4325be6f9612d0e99c5077326",
+    "study/test_study.py": "0cdc32934a6cde187075a7eb4a0a54c16038561b6d221ce3db6c12d770923571",
+    "study/data/train.json": "7cecf52759487c370d1d2879df68532ef10714678d154119658bf3def92aa016",
+    "study/data/dev.json": "aedf846408e22dd4ad9671c18ed2cb51c3880abe85854a96b916314d2bcc8764",
+    "study/data/test.json": "64fc537c7022094d8d9abf66fc8defb94e2b272b42d62c64726600a640dbfabd",
+    "study/data/manifest.json": "8590782aef480033b13b38467c9fd7fc7ed768afc0ffc477310d6428adc85c04",
+    "study/data/train-inputs.json": "a039d9baeb2194560f68091c8f738609d7c5a5b2ea8707508b36d615a445f52f",
+    "study/data/dev-inputs.json": "29cac0ec9cf493cfb28b8bb081bf746f5d96f4905f4d8a365bb30083ffbca96a",
+    "study/data/test-inputs.json": "fe438098379433b0cbd547a0272387f3e6ffd10cf2c5c71d5e26de9d62292d78"
+  },
+  "audit": {
+    "cases": 576,
+    "families": 72,
+    "family_overlap": 0,
+    "exact_duplicates": 0,
+    "independent_human_review": false,
+    "shared_condition_templates": true
+  },
+  "weights_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+  "scope": "local synthetic protocol freeze; not an externally registered preregistration"
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+models/
+.DS_Store
+.pytest_cache/
+results/*
+!results/baseline/
+!results/laya-offline/
+study/runs/*progress.log

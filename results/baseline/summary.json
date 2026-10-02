@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "backend": "baseline",
+    "model": "convaiinnovations/laya",
+    "weights_revision": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+    "device": "cpu",
+    "threshold": 0.9,
+    "timestamp_utc": "2026-10-02T18:10:28.028542+00:00",
+    "request_sha256": "959412642f405c4b7502ac2370461bb5a6dae9ff8e6695a151d3f766838aaef1",
+    "cases_sha256": "6e8f5f4adc357dd81ad6506aae28a9cb66212c37fe9dcf8f53e404f0222e088b",
+    "code_sha256": "6771691f5d77245df31f7006513db019b71f6950a83bdcbdf68c7c374b9d58e9",
+    "load_seconds": 5.117617547512054e-07,
+    "requested_cases": 20,
+    "completed_cases": 20
+  },
+  "metrics": {
+    "backend": "baseline",
+    "cases": 20,
+    "valid": 20,
+    "errors": 0,
+    "accuracy": {
+      "owner": 0.85,
+      "impact": 0.85,
+      "evidence": 0.7
+    },
+    "exact_match": 0.65
+  }
+}
